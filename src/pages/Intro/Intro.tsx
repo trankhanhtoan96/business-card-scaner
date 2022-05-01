@@ -54,7 +54,12 @@ const Intro: React.FC = () => {
                 await worker.initialize('vie');
                 const {data: {lines}} = await worker.recognize(dataUrl);
                 await worker.terminate();
-                setLines(lines);
+                let tmp = [];
+                lines.forEach((value, index) => {
+                    if (value.confidence >= 50) tmp.push(value);
+                });
+                setLines(tmp);
+                console.log(lines);
                 dismissLoading();
             };
         }
