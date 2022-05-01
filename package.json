@@ -16,6 +16,7 @@
         "@capacitor/storage": "^1.2.5",
         "@ionic/react": "^6.0.0",
         "@ionic/react-router": "^6.0.0",
+        "@tensorflow-models/tasks": "0.0.1-alpha.8",
         "@testing-library/jest-dom": "^5.11.9",
         "@testing-library/react": "^11.2.5",
         "@testing-library/user-event": "^12.6.3",

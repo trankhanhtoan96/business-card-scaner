@@ -7,6 +7,7 @@ import {UIProvider} from "./context";
 import {SplashScreen} from "@capacitor/splash-screen";
 import {StatusBar, Style} from "@capacitor/status-bar";
 
+
 SplashScreen.show({
     autoHide: false
 });
