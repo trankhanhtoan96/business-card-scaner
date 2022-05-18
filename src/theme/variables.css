@@ -168,58 +168,58 @@ ion-button {
     text-transform: none;
 }
 
-ion-tab-button {
-    text-align: center !important;
-    margin-top: -20px !important;
-    background-repeat: no-repeat !important;
-    background-position: center !important;
-    background-size: 25px !important;
-}
+/*ion-tab-button {*/
+/*    text-align: center !important;*/
+/*    margin-top: -20px !important;*/
+/*    background-repeat: no-repeat !important;*/
+/*    background-position: center !important;*/
+/*    background-size: 25px !important;*/
+/*}*/
 
-ion-tab-button ion-label {
-    padding-top: 40px !important;
-}
+/*ion-tab-button ion-label {*/
+/*    padding-top: 40px !important;*/
+/*}*/
 
-ion-tab-button:nth-child(1) {
-    background: url('../../public/assets/icon/home.svg');
-}
+/*ion-tab-button:nth-child(1) {*/
+/*    background: url('../../public/assets/icon/home.svg');*/
+/*}*/
 
-ion-tab-button:nth-child(2) {
-    background: url('../../public/assets/icon/form.svg');
-}
+/*ion-tab-button:nth-child(2) {*/
+/*    background: url('../../public/assets/icon/form.svg');*/
+/*}*/
 
-ion-tab-button:nth-child(3) {
-    background: url('../../public/assets/icon/mode-landscape.svg');
-}
+/*ion-tab-button:nth-child(3) {*/
+/*    background: url('../../public/assets/icon/mode-landscape.svg');*/
+/*}*/
 
-ion-tab-button:nth-child(4) {
-    background: url('../../public/assets/icon/cloud-upload.svg');
-}
+/*ion-tab-button:nth-child(4) {*/
+/*    background: url('../../public/assets/icon/cloud-upload.svg');*/
+/*}*/
 
-ion-tab-button:nth-child(5) {
-    background: url('../../public/assets/icon/following.svg');
-}
+/*ion-tab-button:nth-child(5) {*/
+/*    background: url('../../public/assets/icon/following.svg');*/
+/*}*/
 
 
-ion-tab-button[aria-selected=true]:nth-child(1) {
-    background: url('../../public/assets/icon/home.svg');
-}
+/*ion-tab-button[aria-selected=true]:nth-child(1) {*/
+/*    background: url('../../public/assets/icon/home.svg');*/
+/*}*/
 
-ion-tab-button[aria-selected=true]:nth-child(2) {
-    background: url('../../public/assets/icon/form.svg');
-}
+/*ion-tab-button[aria-selected=true]:nth-child(2) {*/
+/*    background: url('../../public/assets/icon/form.svg');*/
+/*}*/
 
-ion-tab-button[aria-selected=true]:nth-child(3) {
-    background: url('../../public/assets/icon/mode-landscape-free-icon-font.svg');
-}
+/*ion-tab-button[aria-selected=true]:nth-child(3) {*/
+/*    background: url('../../public/assets/icon/mode-landscape-free-icon-font.svg');*/
+/*}*/
 
-ion-tab-button[aria-selected=true]:nth-child(4) {
-    background: url('../../public/assets/icon/cloud-upload.svg');
-}
+/*ion-tab-button[aria-selected=true]:nth-child(4) {*/
+/*    background: url('../../public/assets/icon/cloud-upload.svg');*/
+/*}*/
 
-ion-tab-button[aria-selected=true]:nth-child(5) {
-    background: url('../../public/assets/icon/following.svg');
-}
+/*ion-tab-button[aria-selected=true]:nth-child(5) {*/
+/*    background: url('../../public/assets/icon/following.svg');*/
+/*}*/
 
 .modal-wrapper {
     background: transparent !important;
@@ -291,3 +291,6 @@ h4 {
     --color: #77869E;
 }
 
+ion-label.stack{
+    transform: none;
+}

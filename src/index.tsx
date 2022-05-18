@@ -13,11 +13,9 @@ SplashScreen.show({
 });
 StatusBar.setStyle({style: Style.Light});
 ReactDOM.render(
-    <React.StrictMode>
-        <UIProvider>
-            <App/>
-        </UIProvider>
-    </React.StrictMode>,
+    <UIProvider>
+        <App/>
+    </UIProvider>,
     document.getElementById("root")
 );
 serviceWorkerRegistration.unregister();

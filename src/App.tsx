@@ -1,4 +1,4 @@
-import {Route} from "react-router-dom";
+import {Redirect, Route} from "react-router-dom";
 import {IonApp, IonRouterOutlet, setupIonicReact,} from "@ionic/react";
 import {IonReactRouter} from "@ionic/react-router";
 import "@ionic/react/css/core.css";
@@ -12,7 +12,6 @@ import "@ionic/react/css/text-transformation.css";
 import "@ionic/react/css/flex-utils.css";
 import "@ionic/react/css/display.css";
 import "./theme/variables.css";
-import Intro from "./pages/Intro/Intro";
 import MainTabs from "./pages/Tabs/MainTabs";
 import React from "react";
 // import UIContext from "./context";
@@ -27,7 +26,7 @@ const App: React.FC = () => {
         <IonApp>
             <IonReactRouter>
                 <IonRouterOutlet>
-                    <Route exact path="/"><Intro/></Route>
+                    <Route exact path="/"><Redirect to='/tabs'></Redirect></Route>
                     <Route path="/tabs" render={() => <MainTabs/>}/>
                 </IonRouterOutlet>
             </IonReactRouter>
